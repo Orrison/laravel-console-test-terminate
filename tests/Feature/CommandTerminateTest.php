@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Log;
 
 class CommandTerminateTest extends TestCase
 {
+    // This will fail
     public function test_that_a_command_calls_terminate()
     {
         Log::shouldReceive('debug')
